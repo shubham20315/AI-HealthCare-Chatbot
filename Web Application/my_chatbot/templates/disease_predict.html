@@ -1,0 +1,26 @@
+{% include '/home.html' %}
+<body>
+     <!-- rgba(42, 60, 63, 0.248)  -->
+    <div id="prediction" style="position: absolute; top:157px;right:50px ;
+   
+    height:450px;width:700px; background-color:#94aeeb">
+        <form>
+        <span style="font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;font-size: 14px; color:rgb(5, 5, 5);
+        position: relative;left:20px; top:50px">
+        <!-- width: 600px; top:45px ;left: 50px;height:450px; -->
+            <br>   There are chances you may have
+            {{disease[0]}}
+            <br>
+		<br>
+		Description :
+		{{description}}
+		<br>
+		<br>
+		Precautions are:
+		{{precautions}}
+		<br>
+        </span>
+        <br>
+        </form>
+    </div>
+    </body>
